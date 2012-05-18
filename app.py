@@ -2,14 +2,8 @@ import os
 import signal
 
 from flask import Flask
-from flask import render_template
-from flask import url_for
-from flask import request
 
 from twilio import twiml
-from twilio.util import TwilioCapability
-
-import local_settings
 
 
 # Declare and configure application
